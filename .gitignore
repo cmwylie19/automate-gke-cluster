@@ -1,0 +1,5 @@
+# Ansible inventory
+ansible/inventory/gcp.yaml 
+
+# Service Account
+ansible/files/deployer-sa.json

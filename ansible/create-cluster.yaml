@@ -1,0 +1,10 @@
+---
+- name: deploy cluster
+  hosts: localhost
+  gather_facts: false
+  environment:
+    GOOGLE_CREDENTIALS: "{{ credentials_file }}"
+
+  roles:
+    - create-network
+    - create-cluster
